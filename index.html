@@ -15,40 +15,69 @@
   <body>
     <!-- navbar section starts here -->
     <section class="px-4 py-2">
-      <nav class="d-flex justify-content-between align-items-center">
-        <span><img  id= "logo" src="./images/logo.jpeg"/></span>
-        <span class="fw-bold">&#9776;</span>
+      <header class="d-flex justify-content-between align-items-center">
+        <span><img id="logo" src="./images/logo.jpeg" /></span>
+
         <div class="d-flex justify-content-center align-items-center">
-          <img src="./images/whatsapp.png" />
-          <span class="fw-bold h6">+2348107640478</span>
+          <img src="./images/whatsapp.png" style="width: 17px; height: 17px" />
+          <span class="fw-bold" style="font-size: 0.6rem">+2348107640478</span>
         </div>
-      </nav>
+
+        
+      
+        <div>
+          <input type="checkbox" id="menyAvPaa" />
+          <label id="burger" for="menyAvPaa">
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+          <nav id="menuList">
+            <a> Home </a>
+            <a> Services </a>
+             <a> About Us </a>
+     
+          </nav>
+        </div>
+
+      </header>
     </section>
 
     <!-- hero section starts here -->
 
-
     <!-- hero text section-->
-    <section class="px-4 text">
-<span class="h3">Setting the stage for Unforgettable celebrations</span>
+    <section
+      class="heroTextSection px-4 text d-flex flex-column py-2 flex-md-row justify-content-md-between"
+      style="background-color: #9e4d7b1c"
+    >
+      <span class="h3 text-center text-md-start"
+        >Setting the stage for Unforgettable celebrations</span
+      >
 
-<p>We ensure seamless execution, creating Unforgettable experiences for weddings, corporate events, and social gatherings.</p>
-<button class=" bookBtn py-1 px-2 mb-3" style="border-radius: 5px;">Book us now</button>
+      <p class="text-center text-md-start">
+        We ensure seamless execution, creating Unforgettable experiences for
+        weddings, corporate events, and social gatherings.
+      </p>
+      <button
+        class="bookBtn p-2 mb-3 align-self-center ms-md-4"
+        style="width: 40%"
+      >
+        Book us now
+      </button>
     </section>
 
     <section>
-        <!-- slider starts here -->
-        <div>
-          <img class="slideImage" src="./images/sliderImages/slider1.png" >
-          <img class="slideImage" src="./images/sliderImages/slider2.jpg" >
-          <img class="slideImage" src="./images/sliderImages/slider3.jpg" >
-          <img class="slideImage" src="./images/sliderImages/slider4.jpg" >
-          <img class="slideImage" src="./images/sliderImages/slider5.jpg" >
-          <img class="slideImage" src="./images/sliderImages/slider6.jpg" >
-          <img class="slideImage" src="./images/sliderImages/slider7.jpg" >
-        </div>
-        <!-- slider ends here -->
-
+      <!-- slider starts here -->
+      <div>
+        <img class="slideImage" src="./images/sliderImages/slider1.png" />
+        <img class="slideImage" src="./images/sliderImages/slider2.jpg" />
+        <img class="slideImage" src="./images/sliderImages/slider3.jpg" />
+        <img class="slideImage" src="./images/sliderImages/slider4.jpg" />
+        <img class="slideImage" src="./images/sliderImages/slider5.jpg" />
+        <img class="slideImage" src="./images/sliderImages/slider6.jpg" />
+        <img class="slideImage" src="./images/sliderImages/slider7.jpg" />
+      </div>
+      <!-- slider ends here -->
     </section>
 
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
