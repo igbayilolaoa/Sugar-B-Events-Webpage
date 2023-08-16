@@ -1,0 +1,30 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slideImage {
+  display: none;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#logo{
+   width: 80px;
+   height:50px;
+}
+
+.bookBtn{
+    border:none;
+    background-color: #76174D;
+    color: white;
+}
+
+@media only screen and (min-width: 775px) {
+  .slideImage {
+    height: 80vh;
+    object-fit: fill;
+  }
+}
