@@ -106,6 +106,7 @@ a {
     height: 80vh;
     object-fit: fill;
   }
+  
 }
 
 
@@ -124,6 +125,17 @@ a {
   display:none;
 }
 
+.previousBtn,.nextBtn{
+ padding: 5px 12px;
+ border-radius: 90%;
+ border: none;
+ border: 2px solid #49022a;
+
+}
 
 
+.previousBtn:hover,.nextBtn:hover{
+  background-color: #76174d;
+  color: white;
+}
 
