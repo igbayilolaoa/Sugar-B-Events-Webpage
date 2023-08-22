@@ -9,6 +9,7 @@ body,
   box-sizing: border-box;
 object-fit: cover;
   font-family: "Bricolage Grotesque", sans-serif;
+ 
 }
 
 .slideImage {
@@ -130,6 +131,8 @@ grid-template-columns: repeat(1,80vw);
 
 /* media query @ 775px */
 @media only screen and (min-width: 775px) {
+
+
   .slideImage {
     height: 80vh;
     object-fit: fill;
