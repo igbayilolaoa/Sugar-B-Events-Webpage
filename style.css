@@ -12,6 +12,10 @@ object-fit: cover;
  
 }
 
+body{
+  font-size: .8rem;
+}
+
 .slideImage {
   display: none;
   width: 100%;
@@ -31,9 +35,14 @@ object-fit: cover;
   border-radius: 5px;
 }
 
+
+#whoAreWeImg{
+  width: 80%;
+}
 .ourServices {
   background: linear-gradient(to right, #f36db8, #33031e);
 }
+
 
 /* menu animation */
 
@@ -138,6 +147,10 @@ grid-template-columns: repeat(1,80vw);
     object-fit: fill;
   }
 
+  #whoAreWeImg{
+    width: 50%;
+    margin-top: 2rem;
+  }
 
   .eventSection{
     
@@ -167,8 +180,10 @@ grid-template-columns: repeat(1,80vw);
     grid-template-columns: repeat(3,27vw);
     justify-content: space-around;
    
-    
- 
+    }
+
+    body{
+      font-size: 1rem;
     }
     
 }
