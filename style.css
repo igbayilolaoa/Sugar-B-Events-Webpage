@@ -171,6 +171,10 @@ grid-template-columns: repeat(1,80vw);
   box-shadow: 0px 0px 5px 0px rgba(128, 0, 0, 1);
 
 }
+.Testimonial{
+  background-color: #EED7F0;
+  height: 100vh;
+}
 
 /* media query @ 1100px */
 @media only screen and (min-width: 1100px) {
@@ -218,4 +222,13 @@ grid-template-columns: repeat(1,80vw);
   background-color: #76174d;
   color: white;
 }
+
+
+
+
+
+
+
+
+
 
